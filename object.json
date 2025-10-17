@@ -1,0 +1,44 @@
+{
+  "from_amount": 1200.24,
+  "from_currency": "EUR",
+  "to_currency": "BTC",
+  "from_network": null,
+  "to_network": "BNB",
+  "kyc_shared_token": "_act-460a698b-d2bc-4cbc-9456-5f36fee38083",
+  "kyc_shared_token_provider": "sumsub",
+  "redirects": {
+    "successful": "https://guardarian.com/finished/$$",
+    "cancelled": "https://guardarian.com/cancelled",
+    "failed": "https://guardarian.com/failed"
+  },
+  "payout_info": {
+    "payout_address": "0x690b9a9e9aa1c9db991c7721a92d351db4fac990",
+    "extra_id": "78239832980",
+    "skip_choose_payout_address": false
+  },
+  "customer": {
+    "contact_info": {
+      "email": "email@email.com"
+    },
+    "billing_info": {
+      "country_alpha_2": "US",
+      "us_region_alpha_2": "CA",
+      "region": "user's region",
+      "city": "user's city",
+      "street_address": "user's address",
+      "apt_number": "123",
+      "post_index": "123123",
+      "first_name": "John",
+      "last_name": "Doe",
+      "date_of_birthday": "01.01.1991",
+      "gender": "M"
+    }
+  },
+  "deposit": {
+    "payment_category": "VISA_MC",
+    "skip_choose_payment_category": false
+  },
+  "customer_country": "DE",
+  "external_partner_link_id": "3245324",
+  "locale": "en"
+}
